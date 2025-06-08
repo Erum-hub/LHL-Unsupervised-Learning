@@ -1,17 +1,47 @@
 # machine_learning_project-unsupervised-learning
 
+## Project Overview
+This project applies unsupervised learning techniques to analyze wholesale customer purchasing behaviors. We explore clustering methods and dimensionality reduction to uncover hidden patterns in the data and provide actionable insights.
+
 ## Project Outcomes
-- Unsupervised Learning: perform unsupervised learning techniques on a wholesale data dataset. The project involves four main parts: exploratory data analysis and pre-processing, KMeans clustering, hierarchical clustering, and PCA.
+Exploratory Data Analysis (EDA): Understanding data distributions, correlations, and trends.
+
+K-Means Clustering: Identifying customer segments based on purchasing behavior.
+
+Hierarchical Clustering: Understanding customer relationships through dendrogram visualization.
+
+Principal Component Analysis (PCA): Reducing dimensionality and identifying the most influential features.
+
 ### Duration:
 Approximately 1 hour and 40 minutes
+
 ### Project Description:
-In this project, we will apply unsupervised learning techniques to a real-world data set and use data visualization tools to communicate the insights gained from the analysis.
 
-The data set for this project is the "Wholesale Data" dataset containing information about various products sold by a grocery store.
-The project will involve the following tasks:
+Exploratory Data Analysis & Preprocessing
 
--	Exploratory data analysis and pre-processing: We will import and clean the data sets, analyze and visualize the relationships between the different variables, handle missing values and outliers, and perform feature engineering as needed.
--	Unsupervised learning: We will use the Wholesale Data dataset to perform k-means clustering, hierarchical clustering, and principal component analysis (PCA) to identify patterns and group similar data points together. We will determine the optimal number of clusters and communicate the insights gained through data visualization.
+Import and clean dataset.
 
-The ultimate goal of the project is to gain insights from the data sets and communicate these insights to stakeholders using appropriate visualizations and metrics to make informed decisions based on the business questions asked."
+Handle missing values and outliers.
+
+Perform feature scaling and transformation.
+
+Identify correlations between features.
+
+Unsupervised Learning Models
+
+K-Means Clustering: Determines optimal customer segments using the Elbow Method & Silhouette Score.
+
+Hierarchical Clustering: Applies different linkage methods to visualize customer similarity.
+
+Principal Component Analysis (PCA): Reduces feature dimensions and selects key influential components.
+
+Insights & Visualizations
+
+Feature Importance Analysis: PCA revealed that Grocery, Frozen, and Fresh Products contributed the most to variance.
+
+Optimal Clusters Selection: K-Means clustering showed distinct spending behaviors among customers.
+
+Dendrogram Analysis: Hierarchical clustering indicated continuous distribution patterns rather than hard divisions.
+
+This project provides valuable business insights by identifying customer spending patterns, highlighting key features that influence purchasing decisions, and optimizing segmentation strategies.
 
