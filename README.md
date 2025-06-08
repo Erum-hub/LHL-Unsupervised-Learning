@@ -3,45 +3,57 @@
 ## Project Overview
 This project applies unsupervised learning techniques to analyze wholesale customer purchasing behaviors. We explore clustering methods and dimensionality reduction to uncover hidden patterns in the data and provide actionable insights.
 
-## Project Outcomes
-Exploratory Data Analysis (EDA): Understanding data distributions, correlations, and trends.
+## Project Objectives
+Exploratory Data Analysis (EDA): Understand data distributions, correlations, and spending trends.
 
-K-Means Clustering: Identifying customer segments based on purchasing behavior.
+K-Means Clustering: Identify distinct customer segments based on purchasing behavior.
 
-Hierarchical Clustering: Understanding customer relationships through dendrogram visualization.
+Hierarchical Clustering: Visualize customer relationships through a dendrogram to explore natural groupings.
 
-Principal Component Analysis (PCA): Reducing dimensionality and identifying the most influential features.
+Principal Component Analysis (PCA): Reduce dimensionality to highlight the most influential features affecting customer segmentation.
 
 ### Duration:
 Approximately 1 hour and 40 minutes
 
 ### Project Description:
-
-Exploratory Data Analysis & Preprocessing
-
-Import and clean dataset.
-
-Handle missing values and outliers.
-
-Perform feature scaling and transformation.
-
-Identify correlations between features.
+Exploratory Data Analysis (EDA) & Preprocessing
+Import and clean the dataset Handle missing values and detect outliers 
+Perform feature scaling using Standardization 
+Identify correlations among variables using a heatmap
 
 Unsupervised Learning Models
 
-K-Means Clustering: Determines optimal customer segments using the Elbow Method & Silhouette Score.
+K-Means Clustering:
+Determines optimal number of clusters using the Elbow Method & Silhouette Score
+Groups customers into low spenders, mid-range buyers, and bulk purchasers
 
-Hierarchical Clustering: Applies different linkage methods to visualize customer similarity.
+Hierarchical Clustering:
 
-Principal Component Analysis (PCA): Reduces feature dimensions and selects key influential components.
+Applies different linkage methods (Ward’s, Complete, etc.) to assess customer similarity
+Dendrogram visualization highlights continuous spending patterns
 
-Insights & Visualizations
+Principal Component Analysis (PCA):
+Reduces feature dimensions while retaining maximum variance
+Identifies Grocery, Frozen, and Fresh Products as top contributors
 
-Feature Importance Analysis: PCA revealed that Grocery, Frozen, and Fresh Products contributed the most to variance.
+Insights & Business Applications
+Feature Importance Analysis:
+PCA results suggest Grocery spending dominates customer segmentation
+Frozen & Fresh products hold moderate importance, indicating specialized buying behaviors
+Milk has minimal impact, meaning it does not significantly differentiate customers
 
-Optimal Clusters Selection: K-Means clustering showed distinct spending behaviors among customers.
+Optimal Clustering Approach:
+K-Means clustering showed distinct customer spending behaviors
+Hierarchical clustering (Dendrogram) revealed continuous distributions, suggesting segmentation flexibility
 
-Dendrogram Analysis: Hierarchical clustering indicated continuous distribution patterns rather than hard divisions.
+Outlier Detection & Specialized Buyers:
 
-This project provides valuable business insights by identifying customer spending patterns, highlighting key features that influence purchasing decisions, and optimizing segmentation strategies.
+Some customers exhibited high spending on Fresh & Frozen goods, likely bulk buyers or food suppliers
+These insights help customize pricing strategies, inventory planning, and targeted marketing
 
+Conclusion
+This project delivers valuable business insights by:  
+Segmenting customers based on their spending habits  
+Identifying key features influencing purchasing decisions 
+Optimizing marketing strategies based on cluster analysis 
+Improving decision-making for wholesalers
